@@ -21,7 +21,6 @@ CFLAGS		+= -std=gnu99
 #CFLAGS		+= -ggdb -fsanitize=address
 DEFS		= -DVERSION_TAG=\"$(VERSION_TAG)\" -DVERSION_YEAR=\"$(VERSION_YEAR)\"
 # comment to disable STATUS display (headless operation)
-DEFS		+= -DHCXSTATUSOUT
 # comment to disable GPS support
 DEFS		+= -DHCXNMEAOUT
 # uncomment to enable BPF compiler
